@@ -23,7 +23,6 @@
 >- rm -rf node_modules package-lock.json
 >- npm install
 >- npm install typescript@4.3.5 --save-dev
-
 >- ng update @angular/cli@12 @angular/core@12
 
 >- ng update @angular/cli@13 @angular/core@13
