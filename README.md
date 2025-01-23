@@ -13,8 +13,6 @@
 >- npm install @angular-devkit/schematics@10 --save-dev
 >- npm install @angular-devkit/schematics@10 --save-dev --legacy-peer-deps
 >- ng update @angular/cli@10 @angular/core@10
-
-
 >- ng update @angular/cli@13 @angular/core@13
 >- ng update @angular/cli@14 @angular/core@14
 >- npm show angular-bootstrap-md versions
