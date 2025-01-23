@@ -16,6 +16,14 @@
 >- npm install jasmine-core@^3.8 --save-dev --legacy-peer-deps
 >- npm install --legacy-peer-deps
 >- ng update @angular/cli@11 @angular/core@11
+>- npm install codelyzer@6.0.0 --save-dev
+>- npm install --legacy-peer-deps
+>- npm install --force
+>- npm cache clean --force
+>- rm -rf node_modules package-lock.json
+>- npm install
+>- npm install typescript@4.3.5 --save-dev
+
 >- ng update @angular/cli@12 @angular/core@12
 
 >- ng update @angular/cli@13 @angular/core@13
