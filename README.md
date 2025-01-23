@@ -1,5 +1,62 @@
 # AngularPwaAutoSeguros
 
+
+
+## curso
+>- https://www.udemy.com/course/pwa-angular/learn/lecture/18837386?start=0#overview
+>- https://github.com/andrewarosario/angular-pwa-auto-seguros/
+
+
+#### actualizar angular
+>- ng update @angular/cli@10 @angular/core@10
+>- ng update @angular/cli@13 @angular/core@13
+>- ng update @angular/cli@14 @angular/core@14
+>- npm show angular-bootstrap-md versions
+>- npm install --save angular-bootstrap-md@14.0.0 --force
+>- ng update @angular/cli@14 @angular/core@14
+>- npm install --save angular-bootstrap-md@15.0.0 --force
+>- npm install @angular/cdk@15 --force
+>- ng update @angular/cli@15 @angular/core@15
+>- ng update @angular/cli@16 @angular/core@16
+
+
+## Sección 1: Indroducao
+>- 1. Introducao
+
+## Sección 2: PWA e Service Workers
+
+### 2. Setup do Projeto
+>- npm install @angular/service-worker@18.0.1
+>- npm install -g http-server
+>- http-server -p 8080 -c-1
+>- ng add @angular/pwa
+>- ng add @angular/pwa --project curso-pwa-angular
+>- ng add @angular/pwa --project curso-pwa-angular --force
+
+>- ng build --prod
+>- ng build --configuration production
+
+### 3. Configuracoes Iniciais
+>- https://semantic-ui.com/
+>- ng g c presentation/menu
+>- ng g c presentation/cadastro-seguro
+>- ng g c presentation/listar-seguros
+>- npm install --save dexie
+>- npm install -g gulp
+>- npm install semantic-ui --save
+>- cd semantic/
+>- gulp build
+>- npm update
+
+### correcciones
+>- npm install semantic-ui@2.5.0 --save
+>- npm install jquery semantic-ui-css --save
+
+
+
+### 4. 
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
 ## Development server
