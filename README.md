@@ -14,7 +14,7 @@
 >- npm install @angular-devkit/schematics@10 --save-dev --legacy-peer-deps
 >- ng update @angular/cli@10 @angular/core@10
 >- npm install jasmine-core@^3.8 --save-dev --legacy-peer-deps
->- 
+>- ng update @angular/cli@11 @angular/core@11
 
 >- ng update @angular/cli@13 @angular/core@13
 >- ng update @angular/cli@14 @angular/core@14
