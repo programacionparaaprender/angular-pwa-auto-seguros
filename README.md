@@ -25,6 +25,14 @@
 >- npm install typescript@4.3.5 --save-dev
 >- ng update @angular/cli@12 @angular/core@12
 
+>- npm install --legacy-peer-deps
+>- npm install typescript@4.6.4 --save-dev
+>- npm install --force
+>- 
+>- npm cache clean --force
+>- rm -rf node_modules package-lock.json
+>- npm install
+
 >- ng update @angular/cli@13 @angular/core@13
 >- ng update @angular/cli@14 @angular/core@14
 >- npm install @angular/cdk@15 --force
