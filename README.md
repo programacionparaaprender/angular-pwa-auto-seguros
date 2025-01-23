@@ -13,12 +13,11 @@
 >- npm install @angular-devkit/schematics@10 --save-dev
 >- npm install @angular-devkit/schematics@10 --save-dev --legacy-peer-deps
 >- ng update @angular/cli@10 @angular/core@10
+>- npm install jasmine-core@^3.8 --save-dev --legacy-peer-deps
+>- 
+
 >- ng update @angular/cli@13 @angular/core@13
 >- ng update @angular/cli@14 @angular/core@14
->- npm show angular-bootstrap-md versions
->- npm install --save angular-bootstrap-md@14.0.0 --force
->- ng update @angular/cli@14 @angular/core@14
->- npm install --save angular-bootstrap-md@15.0.0 --force
 >- npm install @angular/cdk@15 --force
 >- ng update @angular/cli@15 @angular/core@15
 >- ng update @angular/cli@16 @angular/core@16
