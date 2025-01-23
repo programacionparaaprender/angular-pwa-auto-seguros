@@ -31,9 +31,9 @@
 >- rm -rf node_modules package-lock.json
 >- npm install
 >- ng update @angular/cli@13 @angular/core@13
-
-
 >- ng update @angular/cli@14 @angular/core@14
+
+
 >- npm install @angular/cdk@15 --force
 >- ng update @angular/cli@15 @angular/core@15
 >- ng update @angular/cli@16 @angular/core@16
