@@ -8,6 +8,7 @@
 
 
 #### actualizar angular
+>- ng update @angular/cli@9 @angular/core@9
 >- ng update @angular/cli@10 @angular/core@10
 >- ng update @angular/cli@13 @angular/core@13
 >- ng update @angular/cli@14 @angular/core@14
