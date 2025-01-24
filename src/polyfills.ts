@@ -55,7 +55,8 @@
 /***************************************************************************************************
  * Zone JS is required by default for Angular itself.
  */
-import 'zone.js/dist/zone';  // Cambiar la ruta para la versión correcta
+//import 'zone.js/dist/zone';  // Cambiar la ruta para la versión correcta
+import 'zone.js'; // Correcta
 
 
 
