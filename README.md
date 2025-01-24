@@ -35,6 +35,9 @@
 >- ng update @angular/cli@15 @angular/core@15
 
 >- ng update @angular/cli@16 @angular/core@16
+>- ng update @angular/cli@17 @angular/core@17
+>- npm install zone.js@0.11.4 --save
+>- ng update @angular/cli@18 @angular/core@18
 
 
 ## Sección 1: Indroducao

@@ -65,18 +65,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-pwa-auto-seguros:build"
+            "buildTarget": "angular-pwa-auto-seguros:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-pwa-auto-seguros:build:production"
+              "buildTarget": "angular-pwa-auto-seguros:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-pwa-auto-seguros:build"
+            "buildTarget": "angular-pwa-auto-seguros:build"
           }
         },
         "test": {

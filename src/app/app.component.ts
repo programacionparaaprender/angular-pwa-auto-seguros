@@ -12,7 +12,7 @@ export class AppComponent implements OnInit {
 
   constructor(private push: PushNotificationService, private swUpdate: SwUpdate) {}
 
-  ngOnInit() {
+  /* ngOnInit() {
     if (this.swUpdate.isEnabled) {
       this.swUpdate.available.subscribe(() => {
         if (confirm('Nova versão disponível. Deseja recarregar a página?')) {
@@ -23,5 +23,18 @@ export class AppComponent implements OnInit {
 
     this.push.adicionaPushSubscriber();
 
+  } */
+  ngOnInit() {
+    if (this.swUpdate.isEnabled) {
+      this.swUpdate.versionUpdates.subscribe(update => {
+        if (update.type === 'VERSION_READY') {
+          if (confirm('Nova versão disponível. Deseja recarregar a página?')) {
+            window.location.reload();
+          }
+        }
+      });
+    }
+
+    this.push.adicionaPushSubscriber();
   }
 }
