@@ -4,9 +4,10 @@ import { SeguroService } from 'src/app/shared/services/seguro.service';
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-listar-seguros',
-  templateUrl: './listar-seguros.component.html',
-  styleUrls: ['./listar-seguros.component.css']
+    selector: 'app-listar-seguros',
+    templateUrl: './listar-seguros.component.html',
+    styleUrls: ['./listar-seguros.component.css'],
+    standalone: false
 })
 export class ListarSegurosComponent implements OnInit {
 

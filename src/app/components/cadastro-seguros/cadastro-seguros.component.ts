@@ -7,9 +7,10 @@ import { PushNotificationService } from 'src/app/shared/services/push-notificati
 import { Observable } from 'rxjs';
 
 @Component({
-  selector: 'app-cadastro-seguros',
-  templateUrl: './cadastro-seguros.component.html',
-  styleUrls: ['./cadastro-seguros.component.css']
+    selector: 'app-cadastro-seguros',
+    templateUrl: './cadastro-seguros.component.html',
+    styleUrls: ['./cadastro-seguros.component.css'],
+    standalone: false
 })
 export class CadastroSegurosComponent implements OnInit {
 
